@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to 2048</title>
+  <link href="style/start.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to 2048</h1>
+    <p>Please enter your name to start playing:</p>
+    <form id="nameForm" action="index1.html">
+      <input type="text" id="playerName" name="playerName" placeholder="Enter your name" required>
+      <button type="submit">Start Playing</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('nameForm').addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      var playerNameInput = document.getElementById('playerName');
+      var playerName = playerNameInput.value.trim();
+      if (playerName !== '') {
+        localStorage.setItem('playerName', playerName);
+        window.location.href = 'index1.html'; 
+      } else {
+        alert('Please enter your name.');
+      }
+    });
+  </script>
+</body>
+</html>
