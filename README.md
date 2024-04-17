@@ -1,7 +1,5 @@
 
-<h1>Welcome to Our App!</h1>
-        <p>Experience the future with our innovative app. Discover amazing features that will make your life easier.</p>
-        <a href="https://batersal.github.io/2048_Game_MidtermProject/" class="app-btn">Download Now</a> 
+        <a href="https://batersal.github.io/2048_Game_MidtermProject/" class="app-btn">here</a> 
         <br>
         <br>
-        ![image](https://github.com/Batersal/2048_Game_MidtermProject/assets/157564777/cc3044b2-8147-40d3-a5a9-1453b7153871)
+![image](https://github.com/Batersal/2048_Game_MidtermProject/assets/157564777/357c2b45-6f4b-4830-b7f2-01d1b19c16a6)
